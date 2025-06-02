@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 20px;
+            background-color: rgb(148, 108, 108);
+       
+        }
+        h2{
+            text-align: center;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:10px;
+            background-color: rgb(217, 240, 240);
+             border-radius: 10px;
+
+
+        }
+        .item{
+            text-align: center;
+        }
+
+        .gallery img{
+            width: 300px;
+            height: 200px;
+            margin-top: 20px;
+            transition: transform 0.3s;
+             border-radius: 10px;
+
+        }
+
+        .gallery img:hover{
+            transform: scale(1.2);
+        }
+
+        .caption{
+            margin-top: 10px;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>PHOTO GALLERY</h2>
+    <div class="gallery">
+        <div class="item">
+
+            <img src="bmw1.jpeg" alt="bmw">
+            <p class="caption">BMW</p>
+        </div>
+        <div class="item">
+            <img src="porche.jpeg" alt="porche">
+            <p class="caption">PORCHE</p>
+        </div>
+         <div class="item">
+            <img src="kia.jpeg" alt="kia">
+            <p class="caption">KIA</p>
+        </div>
+         <div class="item">
+            <img src="lamborghini.jpeg" alt="LAMBORGHINI">
+            <p class="caption">LAMBORGHINI</p>
+        </div>
+        <div class="item">
+            <img src="mercheds.jpeg" alt="mercheds">
+            <p class="caption">MERCEDES</p>
+        </div>
+        <div class="item">
+            <img src="RR.jpeg" alt="RR">
+            <p class="caption">RR</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>
